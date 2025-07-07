@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slide Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="top-buttons">
+    <button onclick="loadSet('quit_grab', 36)" id="quitBtn">Quit Freemium</button>
+    <button onclick="loadSet('internship', 21)" id="internBtn">Internship</button>
+  </div>
+
+  <div class="container" id="sliderContainer" style="display: none;">
+    <button id="prevBtn"><img src="left.png" alt="Previous"></button>
+    <div class="image-area">
+    <img id="slide" src="" alt="Slide">
+    <div id="counter">1 / 36</div> 
+  </div>
+    <button id="nextBtn"><img src="right.png" alt="Next"></button>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
